@@ -1,6 +1,6 @@
 {
   "name": "nodejs-ts-zeroconf-script",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "main": "src/index.ts",
   "scripts": {
@@ -9,22 +9,22 @@
     "start": "npm run lint:fix && npm run build && node build/index.js"
   },
   "devDependencies": {
-    "@types/node": "13.9.1",
-    "babel-eslint": "10.0.1",
-    "eslint": "5.16.0",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-config-prettier": "4.1.0",
-    "eslint-loader": "2.1.2",
-    "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-json": "1.4.0",
-    "eslint-plugin-prettier": "3.0.1",
-    "prettier": "1.16.4",
-    "pretty-error": "2.1.1",
-    "rimraf": "3.0.2",
-    "typescript": "3.8.3"
+    "@types/node": "^13.11.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "pretty-error": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
   },
   "engines": {
-    "node": "10.19.0"
+    "node": "12.16.1"
   },
   "dependencies": {},
   "repository": {
